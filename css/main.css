@@ -51,3 +51,69 @@ nav .nav-right-section img {
   border-radius: 50%;
   margin-left: 10px;
 }
+
+main {
+  margin-top: 150px;
+
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  width: 300px;
+}
+
+main .main-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  width: 525px;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+  width: 18px;
+  height: 18px;
+
+  background-image: url("https://img.icons8.com/android/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+main .main-input .mic-icon {
+  width: 18px;
+  height: 18px;
+
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input input {
+  border: none;
+  width: 450px;
+  height: 40px;
+
+  outline: none;
+}
