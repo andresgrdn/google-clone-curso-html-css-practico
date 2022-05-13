@@ -78,7 +78,7 @@ main .main-input-container {
   width: 525px;
 }
 
-main .main-input-container:hover {
+main .main-input-container:where(:hover, :focus-within) {
   box-shadow: 0 1px 6px 0 #20212447;
   border-color: #dfe1e500;
 }
@@ -116,4 +116,38 @@ main .main-input input {
   height: 40px;
 
   outline: none;
+}
+
+main .main-buttons {
+  margin: 0 auto;
+  width: 530px;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons div:first-child {
+  margin-right: 15px;
+}
+
+main .main-buttons button {
+  box-sizing: border-box;
+
+  border: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  height: 36px;
+
+  font-size: 14px;
+
+  background: #f2f2f2;
+  color: #5f6368;
+}
+
+main .main-buttons button:where(:hover, :focus-visible) {
+  box-shadow: 0 1px 0 #c6c6c6;
+  border-color: #c6c6c6;
+
+  color: black;
 }
